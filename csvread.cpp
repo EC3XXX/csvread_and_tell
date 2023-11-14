@@ -2,10 +2,11 @@
 //by EC3XXX
 //2023/9/13
 //tools to read .csv data file
-//easy to use examples for model checking
 
 //CANNOT USE WITHOUT csvread.h FILE AND INCLUDE IT
 //DECLARE struct structure_csv csv_csvread AGAIN AT THE TOP OF FILE WHICH ARE USING CSVREAD
+//struct structure_csv csv_csvread;
+//LIKE THIS
 
 //connection with .h file
 #include "csvread.h"
@@ -59,16 +60,3 @@ double csvtell(string name_of_col,int row)
 	int col = distance(csv_csvread.name.begin(),f);								//locate the col and row
 	return csv_csvread.data[row][col];											//return
 }
-
-/*
-int main(int argc,char *argv[])
-{
-	void csvread(string filename);
-	double csvtell(string name_of_col,int row);
-	csvread("test.csv");
-	cout << csv.data[3][3] << endl;
-	cout << csvtell("psisbx",3);
-	
-	
-	return 0;
-}*/
