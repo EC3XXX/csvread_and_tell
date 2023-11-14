@@ -1,7 +1,7 @@
 //.csv data file input .h
 //by EC3XXX
 //2023/9/13
-//tools for ghame_system_modeling to read .csv data file
+//tools to read .csv data file
 //easy to use examples for model checking
 
 //CANNOT USE WITHOUT csvread.cpp FILE
