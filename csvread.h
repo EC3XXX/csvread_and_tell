@@ -2,7 +2,6 @@
 //by EC3XXX
 //2023/9/13
 //tools to read .csv data file
-//easy to use examples for model checking
 
 //CANNOT USE WITHOUT csvread.cpp FILE
 
